@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: world-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: world
+  template:
+    metadata:
+      labels:
+        app: world
+    spec:
+      containers:
+        - name: world
+          image: sunilvurandur1/world_service:latest   # Ensure this is correct
+          ports:
+            - containerPort: 3001       # Ensure the container is listening on this port
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: world-service
+spec:
+  selector:
+    app: world
+  ports:
+    - protocol: TCP
+      port: 3001
+      targetPort: 3001
+  type: NodePort

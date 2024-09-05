@@ -6,6 +6,6 @@ app.get('/world',(req, res)=>{
 });
 
 
-app.listen(3000, ()=>{
-    console.log("Application is running on port 8000")
+app.listen(3001, ()=>{
+    console.log("Application is running on port 3001")
 });
