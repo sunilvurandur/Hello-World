@@ -1,4 +1,4 @@
-#### CMPE-272 - ASSIGNMENT 1 : Hello World
+### CMPE-272 - ASSIGNMENT 1 : Hello World
 ## Prerequisites
 - [Node.js](https://nodejs.org/en/download/)
 - [Docker](https://www.docker.com/get-started)
