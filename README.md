@@ -8,9 +8,11 @@
 ## Running the Application Locally
 
 ### Hello Service
-    ```cd hello_service
+    ```
+    cd hello_service
     npm install
-    node index.js```
+    node index.js
+    ```
 Test the Hello service by visiting `http://localhost:3000/hello` in your browser. You should see the string "Hello".
 
 ### World Service
