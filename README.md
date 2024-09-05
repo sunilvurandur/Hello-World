@@ -8,6 +8,7 @@
 ## Running the Application Locally
 
 ### Hello Service
+1. Navigate to the `hello_service` directory:
     ```
     cd hello_service
     npm install
