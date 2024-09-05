@@ -61,9 +61,9 @@ Test the World service by visiting `http://localhost:3001/world` in your browser
     docker push sunilvurandur1/testing_service:latest
     ```
 2. Dockerhub images urls listed below:
-    hello-service   :  https://hub.docker.com/r/sunilvurandur1/hello_service
-    world-service   :  https://hub.docker.com/r/sunilvurandur1/world_service
-    testing-service :  https://hub.docker.com/r/sunilvurandur1/testing_service
+    - hello-service   :  https://hub.docker.com/r/sunilvurandur1/hello_service
+    - world-service   :  https://hub.docker.com/r/sunilvurandur1/world_service
+    - testing-service :  https://hub.docker.com/r/sunilvurandur1/testing_service
 
 ### Create Kubernetes Deployment Manifests using minikube
 
