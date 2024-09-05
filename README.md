@@ -79,7 +79,10 @@ These files define the deployments and services for each microservice.
     ```
 
 ### Verify the Deployment
-    ```kubectl get services```
+1. command to list services: 
+    ```
+   kubectl get services
+    ```
 <img width="668" alt="Screenshot 2024-09-05 at 2 58 04 PM" src="https://github.com/user-attachments/assets/385cabe8-4bf6-41bd-8d76-ed9443280485">
 
 ## Testing each service
